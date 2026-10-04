@@ -10,6 +10,6 @@ button{font-size:1.3em;padding:12px 28px;margin-top:14px;border:0;border-radius:
 </style></head><body><div class="c">
 <img src="cover.png" alt=""><h1>ISAAC 2</h1><p>Version de test privée. Entre le code pour jouer.</p>
 <form onsubmit="go();return false"><input id="k" type="password" inputmode="numeric" placeholder="code" autofocus><br><button>▶ Jouer</button></form>
-<p id="e"></p><p style="font-size:.85em">Paysage conseillé sur téléphone.</p></div>
+<p id="e"></p><p style="font-size:.85em">Paysage conseillé sur téléphone. Le jeu passe en plein écran au premier toucher (bouton ⛶ en haut à droite). Sur iPhone : Partager → « Sur l’écran d’accueil ».</p></div>
 <script>function go(){if(document.getElementById('k').value==='1234'){sessionStorage.ok=1;location.href='jeu/'}else document.getElementById('e').textContent='Mauvais code'}</script>
 </body></html>
